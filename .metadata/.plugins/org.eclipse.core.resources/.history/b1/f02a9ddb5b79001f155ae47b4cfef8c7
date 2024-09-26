@@ -1,0 +1,14 @@
+package config;
+
+import java.io.IOException;
+import java.nio.file.DirectoryStream.Filter;
+
+public class Filter implements Filter {
+
+	@Override
+	public boolean accept(Object entry) throws IOException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

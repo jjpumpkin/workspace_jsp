@@ -1,0 +1,22 @@
+package beantest;
+
+import java.io.Serializable;
+
+/**
+ *  javaBean 
+ */
+public class person implements Serializable {
+    
+	
+	
+private static final long serialVersionUID = 1L;
+//1.캡슐화된 속성
+private String name;
+private int age;
+//2.기본 생성장
+public person() {}
+//1.public 접근자
+public String getName() {
+	
+}
+}

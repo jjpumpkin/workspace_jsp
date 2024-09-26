@@ -1,0 +1,20 @@
+<%@page import="jdbc.UserVO" %>
+<%@page import="jdbc.UserService" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+    UserService service= UserService.getInstance();
+    UserVO vo = service.loginUser("a001","asdfasdf");
+    System.out.println(vo);
+  
+%>   
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>
